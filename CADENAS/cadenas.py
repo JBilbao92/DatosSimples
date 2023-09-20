@@ -20,4 +20,11 @@ nombre = input("Nombre completo: ")
 print(nombre.upper(), "tiene", str(len(nombre)), "letras")
 
 Ejercicio 4
-'''
+telf = input("Introduzca nº de teléfono en formato +XX-XXXXXXXXX-XX: ")
+print("El número fijo es ", telf[4:-3])
+
+Ejercicio 5
+frase = input("Introduzca una frase: ")
+print(frase[::-1])
+
+Ejercicio 6'''
