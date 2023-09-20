@@ -54,8 +54,9 @@ Ejercicio 10
 lista = input("Introduzca la lista de la compra separado por comas: ")
 print(lista.replace(",", "\n"))
 
-Ejercicio 11'''
+Ejercicio 11
 producto = input("Introduzca el nombre del producto: ")
 precio = float(input("Introduzca el precio del producto: "))
 unidades = int(input("Introduzca la cantidad: "))
 print("{producto}: {unidades:3d} unidades x {precio:9.2f}€ = {total:11.2f}€".format(producto = producto, unidades = unidades, precio = precio, total = unidades * precio))
+'''
