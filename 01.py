@@ -55,4 +55,20 @@ peso = int((payasos*112) + (muñecas*75))
 print("El peso del paquete es", peso, "gramos")
 
 Ejericio 11
+inversion = float(input("Introduce inversion: "))
+interes = 0.04
+balance1 = inversion * (1 + interes)
+print("Balance el primer año:" + str(round(balance1, 2)))
+balance2 = balance1 * (1 + interes)
+print("Balance el segundo año:" + str(round(balance2, 2)))
+balance3 = balance2 * (1 + interes)
+print("Balance el tercer año:" + str(round(balance3, 2)))
+
+Ejercicio 12
+precion = 3.49
+descuento = int(3.49*0.6)
+preciod = int(precion - descuento)
+print("Precio Normal:", precion, "€")
+print("Descuento:", descuento, "€")
+print("Precio tras descuento:", preciod, "€")
 '''
