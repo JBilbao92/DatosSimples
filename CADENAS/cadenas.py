@@ -27,4 +27,27 @@ Ejercicio 5
 frase = input("Introduzca una frase: ")
 print(frase[::-1])
 
-Ejercicio 6'''
+Ejercicio 6
+frase = input ("Introduzca una frase: ")
+vocal = input ("Introduzca una vocal: ")
+print(frase.replace(vocal, vocal.upper()))
+
+Ejercicio 7
+email = input("Indroduzca correo electronico: ")
+print(email[:email.find("@")] + "@ceu.es")
+
+Ejercicio 8
+precio = input("Introduzca precio con decimales: ")
+print(precio[:precio.find(".")], "€ y ", precio[precio.find(".")+1:], "céntimos.")
+
+Ejercicio 9
+fecha = input("Introduzca una fecha (formato dd/mm/aaaa): ")
+dia = fecha[:fecha.find("/")]
+mesaño = fecha[fecha.find("/")+1:]
+mes = mesaño[:mesaño.find("/")]
+año = mesaño[mesaño.find("/")+1:]
+print("Día", dia)
+print("Mes", mes)
+print("Año", año)
+
+Ejercicio 10'''
