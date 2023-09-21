@@ -74,5 +74,48 @@ else:
     tipo = "45%"
 print("Su tipo impositivo es " + tipo)
 
-Ejercicio 8'''
+Ejercicio 8
+rend = float(input("Indique su rendimiento (formato 0.X): "))
+if rend < 0.4:
+    result = "inaceptable" 
+    bonus = "2400€"
+elif rend < 0.6:
+    result = "aceptable" 
+    bonus = "4800€"
+else:
+    result = "meritorio" 
+    bonus = "7200€"
+print("Su resultado es " + result + ", su bonus es " + bonus + ".")
 
+Ejercicio 9
+edad = int(input("Introduzca su edad: "))
+if edad < 4:
+    precio = 0
+elif edad <= 18:
+    precio = 5
+else:
+    precio = 10
+print("El precio de su entrada es", precio, "€.")
+
+Ejercicio 10
+print("Bienvenido a Bella Napoli.\nNuestrostipos de pizza\n\t1- Vegetariana\n\t2- No vegetariana")
+tipo = input("Introduce el número de la pizza que desee: ")
+if tipo == "1":
+    print("Ingredientes\n\t 1- Pimiento\n\t2- Tofu\n")
+    ingrediente = input("Introduce el ingrediente que deseas: ")
+    print("Pizza vegetariana con mozzarella , tomate y ", end="")
+    if ingrediente == "1":
+        print("pimiento")
+    else:
+        print("tofu")
+else:
+    print("Ingredientes pizzas no vegetarianas\n\t1- Peperoni\n\t2- Jamón\n\t3- Salmón\n")
+    ingrediente = input("Introduce el ingrediente que deseas: ")
+    print("Pizza no vegetariana con mozarella, tomate y ", end="")
+    if ingrediente == "1":
+        print("peperoni")
+    elif ingrediente =="2":
+        print("jamón")
+    else:
+        print("salmón")
+'''
