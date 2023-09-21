@@ -29,4 +29,50 @@ if resto == 0:
 else:
     print(division)
 
-Ejercicio 4'''
+Ejercicio 4
+numero = int(input("Introduzca un número: "))
+division = int(numero%2)
+if division == 0:
+    print("Su número es par")
+else:
+    print("Su numero es impar")
+
+Ejercicio 5
+edad = int(input("Introduzca su edad: "))
+income = int(input("Introduzca sus ingresos: "))
+if edad >= 16 and income >= 1000:
+    print("Debe tributar")
+else:
+    print("Usted no debe tributar")
+
+Ejercicio 6
+sexo = input("Introduzca su género (M o H): ")
+nombre = input("Introduzca su nombre: ")
+if sexo == "M":
+    if nombre.lower() < "m":
+        grupo = "A"
+    else:
+        grupo = "B"
+else:
+    if nombre.lower() > "n":
+        grupo = "A"
+    else:
+        grupo = "B"
+print("Su grupo es: " + grupo)
+
+Ejercicio 7
+renta = int(input("Indique su renta: "))
+if renta < 10000:
+    tipo = "5%"
+elif renta < 20000:
+    tipo = "15%"
+elif renta < 35000:
+    tipo = "20%"
+elif renta < 60000:
+    tipo = "30%"
+else:
+    tipo = "45%"
+print("Su tipo impositivo es " + tipo)
+
+Ejercicio 8'''
+
