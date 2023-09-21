@@ -10,4 +10,23 @@ if edad >= 18:
 else:
     print("Menor de edad")
 
-Ejercicio 2'''
+Ejercicio 2
+passw = "contraseña"
+password = input("Introduzca su contraseña: ") 
+if passw == password.lower():
+    print("Contraseña Correcta")
+else:
+    print("Contraseña Erronea")
+
+    
+Ejercicio 3
+divisor1 = int(input("Introduzca el divisor: "))
+divisor2 = int(input("Introduzca el dividendo: "))
+resto = int(divisor1%divisor2)
+division = int(divisor1/divisor2)
+if resto == 0:
+    print("Error")
+else:
+    print(division)
+
+Ejercicio 4'''
