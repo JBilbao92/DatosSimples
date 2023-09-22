@@ -24,4 +24,25 @@ numero = int(input("Introduzca un numero entero positivo: "))
 for i in range(numero, -1, -1):
     print(i, end=", ")
 
-Ejercicio 5'''
+Ejercicio 5
+cantidad = float(input("Cantidad a invertir: "))
+interes = float(input("Interes anual: "))
+años = int(input("Años: "))
+for i in range(años):
+    cantidad *= 1 + interes / 100
+    print("Dinero tras " + str(i+1) + " años" + str(round(cantidad, 2)))
+
+Ejercicio 6
+numero = int(input("Introduce la altura del triangulo (numero positivo): "))
+for i in range(numero):
+    for j in range(i+1):
+        print("*", end="")
+    print("")
+
+Ejercicio 7
+for i in range(1, 11):
+    for j in range(1,11):
+        print(i*j, end="\t")
+    print("")
+
+Ejercicio 8'''
