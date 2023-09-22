@@ -62,4 +62,24 @@ if i == numero:
 else:
     print(str(numero) + " no es primo")
 
-Ejercicio 11'''
+Ejercicio 11
+palabra = input("Introduzca una palabra: ")
+for i in range(len(palabra)-1, -1, -1):
+    print(palabra[i])
+
+Ejercicio 12
+frase = input("Introduzca una frase: ")
+letra = input("Introduce una letra: ")
+contador = 0
+for i in frase:
+    if i == letra:
+        contador +=1
+print("La letra '%s' aparece %2i veces en la frase '%s'." % (letra, contador, frase))
+
+Ejercicio 13
+while True:
+    frase = input("Introduce una palabra:")
+    if frase == "salir":
+        break
+    print(frase)
+'''
