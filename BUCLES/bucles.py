@@ -45,4 +45,21 @@ for i in range(1, 11):
         print(i*j, end="\t")
     print("")
 
-Ejercicio 8'''
+Ejercicio 8
+numero = int(input("Introduce la altura del triangulo: "))
+for i in range(1, numero+1, 2):
+    for j in range(i, 0, -2):
+        print(j, end=" ")
+    print("")
+
+Ejercicio 10
+numero = int(input("Introduzca numero entero positivo mayo que 2: "))
+i = 2
+while numero % i !=0:
+    i += 1
+if i == numero:
+    print(str(numero) + " es primo")
+else:
+    print(str(numero) + " no es primo")
+
+Ejercicio 11'''
