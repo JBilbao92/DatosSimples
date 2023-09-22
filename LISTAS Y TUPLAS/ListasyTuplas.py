@@ -3,4 +3,8 @@
 
 fuente: https://aprendeconalf.es/docencia/python/ejercicios/listas-tuplas/
 
-Ejercicio 1'''
+Ejercicio 1
+asignaturas = ["Mate", "Fisica", "Quimica", "Historia", "Lengua"]
+print(asignaturas)
+
+Ejercicio2'''
