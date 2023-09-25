@@ -21,4 +21,11 @@ for asignatura in asignaturas:
 for i in range(len(asignaturas)):
     print("En " + asignaturas[i] + " has sacado " + notas[i])
 
-Ejercicio 4'''
+Ejercicio 4
+numero = []
+for i in range (6):
+    numero.append(int(input("Introduzca números ganadores: ")))
+numero.sort()
+print("Los números ganadores son " + str(numero))
+
+Ejercicio 5'''
